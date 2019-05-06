@@ -110,7 +110,7 @@ if not proceed further:
 11. Connecting to mySQL server: `mysql -u root -p`
 12. Creating a database "jira-db": `CREATE DATABASE jira_db CHARACTER SET utf8 COLLATE utf8_bin;`
 13. Creating a database user with password: `CREATE USER 'jira'@'localhost' IDENTIFIED BY 'yourPassword';`
-14. Granting priviledges: `GRANT ALL PRIVILEGES ON * . * TO 'jira'@'localhost';`
+14. Granting priviledges: `GRANT ALL PRIVILEGES ON * . * TO 'jira'@'localhost';` replace localhost with your ip address.
 15. Use `flush privileges;` in order to make `GRANT` effective.
 16. Restart mySQL" `restart mysql`
 
